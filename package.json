@@ -1,0 +1,27 @@
+{
+  "name": "grunt-daemon",
+  "description": "Daemonize grunt tasks",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pfraces/grunt-daemon.git",
+  "author": "Pau Fracés <pfraces@gmail.com>",
+  "license": "MIT",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfraces/grunt-daemon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pfraces/grunt-daemon/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "grunt": "latest"
+  },
+  "keywords": [
+    "gruntplugin",
+    "daemon",
+    "wait",
+    "forever",
+    "keepalive",
+    "server"
+  ]
+}

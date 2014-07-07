@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-  grunt.registerTask('daemon', 'Start daemons', function () {
+  grunt.registerTask('daemon', 'Daemonize grunt tasks', function () {
     var task = this.args.shift();
 
     var targets = this.args.map(function (target) {

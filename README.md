@@ -106,7 +106,7 @@ running forever ...
 
 >   Running "daemonize" task
 
-*(waiting forever)*
+_(waiting forever)_
 
 Daemon task
 -----------
@@ -130,7 +130,7 @@ This task does not require any configuration. Just load the task in your
 grunt.loadNpmTasks('grunt-daemon');
 ```
 
-*(Note that **grunt-daemon** register both **daemonize** and **daemon** tasks)*
+_(Note that **grunt-daemon** register both **daemonize** and **daemon** tasks)_
 
 Then, from the command-line you can daemonize any task you want passing the
 task name as an argument to the **daemon** task
@@ -143,7 +143,7 @@ task name as an argument to the **daemon** task
 
 >   Running "daemonize" task
 
-*(waiting forever)*
+_(waiting forever)_
 
 You can specify the task targets you want to use as further task arguments
 
@@ -153,7 +153,7 @@ You can specify the task targets you want to use as further task arguments
 
 >   Running "daemonize" task
 
-*(waiting forever)*
+_(waiting forever)_
 
 ### How to: create an alias of a daemonized tasks
 

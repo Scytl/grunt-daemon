@@ -35,7 +35,7 @@ function () {
 }
 ```
 
-`this.async()` tells grunt to run in async mode and returns a handle to a
+`this.async()` tells [grunt][1] to run in async mode and returns a handle to a
 funcion to be called when an async task process has finished
 
 ```js
@@ -48,8 +48,8 @@ setTimeout(function () {
 In the previous example, the async process is released after 3 seconds using
 the call to `done()`
 
-Hence, the **daemonize** task sets grunt in async mode and never releases the
-process, making grunt waiting forever until the user stops the process with
+Hence, the **daemonize** task sets [grunt][1] in async mode and never releases the
+process, making [grunt][1] waiting forever until the user stops the process with
 `Ctrl+C`
 
 ### Usage
@@ -59,7 +59,7 @@ other tasks and put `daemonize` as the last task to give daemon powers to your
 task group.
 
 For example, the [grunt-contrib-connect][4] stops listening requests after
-grunt tasks have finished, so its suitable for unit testing but cannot be used
+[grunt][1] tasks have finished, so its suitable for unit testing but cannot be used
 by the developer.
 
 This behavior can be changed with its `keepalive` option, but that doesn't
@@ -116,7 +116,7 @@ Daemon task
 -----------
 
 The **daemonize** task is useful for hardcoded task groups, but what if we want
-to daemonize just some connect targets?
+to daemonize just some [connect][4] targets?
 
 We need to create several task groups for several targets combination?
 

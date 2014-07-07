@@ -165,8 +165,9 @@ or specify the targets to use (`foo` and `qux` in the example)
 
     grunt server:foo:qux
 
-You need to include the following snippet in your `Gruntfile.js` replacing
-the task name based on your needs
+For this kind of alias you need to include a snippet like the following in your
+`Gruntfile.js` replacing the task name (`server` in the example) and the task
+to be used (`connect` in the example) based on your needs
 
 ```js
 grunt.registerTask('server', function () {
@@ -174,8 +175,7 @@ grunt.registerTask('server', function () {
 });
 ```
 
-In the previous example `server` will be the task name, which acts as an alias
-to `daemon:connect`
+In the previous example `server` will become an alias to `daemon:connect`
 
 License
 -------

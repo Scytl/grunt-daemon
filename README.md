@@ -165,7 +165,7 @@ You can specify the task targets you want to use as further task arguments
 
 _(waiting forever ...)_
 
-### How to: create an alias of a daemonized tasks
+### How to: create an alias to a daemonized task
 
 Say you want to create a grunt task wich acts like a daemonized task:
 
@@ -177,7 +177,7 @@ or specify the targets to use (`foo` and `qux` in the example)
 
     grunt server:foo:qux
 
-For this kind of alias you need to include a snippet like the following in your
+For this kind of aliases you need to include a snippet like the following in your
 `Gruntfile.js` replacing the task name (`server` in the example) and the task
 to be used (`connect` in the example) based on your needs
 

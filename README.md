@@ -163,7 +163,7 @@ a `server` alias to `daemon:connect` which allows to daemonize all task targets
 
 or specify the targets to use (`foo` and `qux` in the example)
 
-   grunt server:foo:qux
+    grunt server:foo:qux
 
 You need to include the following snippet in your `Gruntfile.js` replacing
 the task name based on your needs

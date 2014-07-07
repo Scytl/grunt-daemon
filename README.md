@@ -110,7 +110,7 @@ running forever ...
 
 >   **Running "daemonize" task**
 
-_(waiting forever)_
+_(waiting forever ...)_
 
 Daemon task
 -----------
@@ -143,23 +143,27 @@ task name as an argument to the **daemon** task
 
 >   **Running "connect:foo" (connect) task**
 
+>   foo listening on port 3000
+
 >   **Running "connect:bar" (connect) task**
+
+>   bar listening on port 4000
 
 >   **Running "daemonize" task**
 
-_(waiting forever)_
+_(waiting forever ...)_
 
 You can specify the task targets you want to use as further task arguments
 
     grunt daemon:connect:foo
 
->   Running "connect:foo" (connect) task
+>   **Running "connect:foo" (connect) task**
 
 >   foo listening on port 3000
 
->   Running "daemonize" task
+>   **Running "daemonize" task**
 
-_(waiting forever)_
+_(waiting forever ...)_
 
 ### How to: create an alias of a daemonized tasks
 

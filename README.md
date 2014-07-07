@@ -153,7 +153,7 @@ You can specify the task targets you want to use as further task arguments
 
 >   Running "daemonize" task
 
-### Alias daemonized tasks
+### How to: create an alias of a daemonized tasks
 
 Say you want to create a grunt task wich acts like a daemonized task:
 

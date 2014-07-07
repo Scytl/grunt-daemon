@@ -1,16 +1,16 @@
 {
   "name": "grunt-daemon",
   "description": "Daemonize grunt tasks",
-  "version": "0.0.3",
-  "homepage": "https://github.com/pfraces/grunt-daemon.git",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Scytl/grunt-daemon.git",
   "author": "Pau Fracés <pfraces@gmail.com>",
   "license": "MIT",  
   "repository": {
     "type": "git",
-    "url": "https://github.com/pfraces/grunt-daemon.git"
+    "url": "https://github.com/Scytl/grunt-daemon.git"
   },
   "bugs": {
-    "url": "https://github.com/pfraces/grunt-daemon/issues"
+    "url": "https://github.com/Scytl/grunt-daemon/issues"
   },
   "dependencies": {},
   "peerDependencies": {

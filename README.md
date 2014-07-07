@@ -101,8 +101,10 @@ running forever ...
     grunt server
 
 >   Running "connect:foo" (connect) task
-    Running "connect:bar" (connect) task
-    Running "daemonize" task
+
+>   Running "connect:bar" (connect) task
+
+>   Running "daemonize" task
 
 *(waiting forever)*
 
@@ -136,8 +138,10 @@ task name as an argument to the **daemon** task
     grunt daemon:connect
 
 >   Running "connect:foo" (connect) task
-    Running "connect:bar" (connect) task
-    Running "daemonize" task
+
+>   Running "connect:bar" (connect) task
+
+>   Running "daemonize" task
 
 *(waiting forever)*
 
@@ -146,7 +150,8 @@ You can specify the task targets you want to use as further task arguments
     grunt daemon:connect:foo
 
 >   Running "connect:foo" (connect) task
-    Running "daemonize" task
+
+>   Running "daemonize" task
 
 ### Alias daemonized tasks
 

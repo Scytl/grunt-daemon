@@ -1,7 +1,7 @@
 {
   "name": "grunt-daemon",
   "description": "Daemonize grunt tasks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/pfraces/grunt-daemon.git",
   "author": "Pau Fracés <pfraces@gmail.com>",
   "license": "MIT",  

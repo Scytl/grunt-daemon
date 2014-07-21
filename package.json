@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "grunt": "latest"
+    "grunt": "*"
   },
   "keywords": [
     "gruntplugin",

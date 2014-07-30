@@ -118,7 +118,7 @@ Daemon task
 The **daemonize** task is useful for hardcoded task groups, but what if we want
 to daemonize just some [connect][4] targets?
 
-We need to create several task groups for several targets combination?
+Do we need to create several task groups for several targets combination?
 
 That is why we have created the **daemon** task
 

@@ -1,7 +1,7 @@
 {
   "name": "grunt-daemon",
   "description": "Daemonize grunt tasks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/Scytl/grunt-daemon.git",
   "author": "Pau Fracés <pfraces@gmail.com>",
   "license": "MIT",  
@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "grunt": "latest"
+    "grunt": "*"
   },
   "keywords": [
     "gruntplugin",
